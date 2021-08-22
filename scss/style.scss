@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    max-width: 1620px;
+    
     
     }
 html {
@@ -15,7 +15,7 @@ body{
     font-family: 'Segoe UI', sans-serif;
     font-weight: 300;  
     background: no-repeat;
-    max-width: 1620px;
+    
 } 
 a{
     color: #19181a;
@@ -31,8 +31,8 @@ li{
     display: inline-block;
 }
 .header{
-    
-    max-width: 1620px;
+    background-color: aliceblue;  
+   
     
 }
 
@@ -93,13 +93,9 @@ margin-right: 30px;
     
     .container{
         width: 100%;
-        max-width: 1620px;
-        height: 650px;
-        height: 100%;
     }
 }
 .container__inner{
-    max-width: 1620px;
     height: 576px;
     width: 100%;
       
@@ -229,6 +225,9 @@ margin-right: 30px;
 .aboutme{
     background-image: url(../images/fon.png);
     background-size: 100% auto;
+}
+.wrapper{
+    min-width: 100vh;
 }
 // .slider__item{
 //     min-height: 600px;
