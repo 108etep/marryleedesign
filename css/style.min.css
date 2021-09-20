@@ -188,7 +188,6 @@ li {
 }
 
 .info__inner-text-2 {
-  height: 150px;
   width: 655px;
   background-color: #e7e7e7;
   border-radius: 15px;
@@ -201,10 +200,10 @@ li {
 .info__inner-text-2 h3 {
   font-size: 30px;
   font-weight: 300;
+  padding: 15px;
 }
 
 .info__inner-text-3 {
-  height: 170px;
   width: 655px;
   background-color: #e7e7e7;
   border-radius: 15px;
@@ -228,10 +227,11 @@ li {
 
 .nizhnii__info__inner-text {
   background-color: #e7e7e7;
-  height: 232px;
   width: 773px;
   margin-top: 20px;
+  margin-bottom: 60px;
   border-radius: 15px;
+  padding: 5px;
 }
 
 .nizhnii__info__inner-text h3 {
@@ -244,6 +244,7 @@ li {
   margin-left: 253px;
   margin-right: 48px;
   margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .injection {
